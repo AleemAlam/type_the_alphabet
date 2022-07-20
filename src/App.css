@@ -1,6 +1,10 @@
 .App {
   text-align: center;
 }
+body {
+  margin: 0;
+  padding: 0;
+}
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +39,51 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container {
+  background-color: #0b1852;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+.title {
+  font-size: 32px;
+  padding: 16px 0px;
+}
+.subtitle {
+  font-size: 16px;
+  padding: 16px 0px;
+}
+
+.screen {
+  width: 500px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: white;
+  color: green;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 96px;
+}
+
+.user-input {
+  font-size: 24px;
+  margin: 20px 0px;
+}
+.button {
+  padding: 10px 20px;
+  font-size: 24px;
+  color: #0b1852;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: azure;
+}
+.best-score {
+  margin: 20px 0px;
 }
